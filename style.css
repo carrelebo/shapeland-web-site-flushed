@@ -1,0 +1,90 @@
+/* Anton Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Bebas Neue Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    background: url(background-site-web.png) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+centre center.head nav{
+    margin-right: 55px;
+}
+
+centre center.head nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+centre center.head nav ul li a{
+    text-decoration: none;
+
+    color: white;
+    background-color: purple;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+
+}
+
+centre center.head nav ul li:hover a{
+    color: white;
+    background-color: #470863;
+    transition: 0.2s all;
+}
+
+
+centre center.head{
+
+    padding-top: 25px;
+
+    margin-left: 40px;
+
+}
+
+centre center.head a img{
+    background-color: white;
+    
+    padding-left: 6%;
+    padding-right: 5%;
+
+    margin-right: 5px;
+    
+    max-width: 46%;
+}
+
+centre center.main{
+    max-width: 45%;
+    margin-left: 23.5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 100px;
+
+    background-color: orange;
+}
+
+centre center.main img{
+    max-width: 45%;
+}
+
+h1{
+    font-size: 55px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+p{
+    font-size: 35px;
+    font-family: 'Anton', cursive;
+    color: white;
+}
